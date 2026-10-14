@@ -1,5 +1,7 @@
 # Banca Mayorista · Tablero ejecutivo
 
+https://avaguilar-do.github.io/Banca-Empresarial/
+
 Tablero ejecutivo web de **Grupo Consupago — Banca Mayorista / Banca Empresarial**, preparado para publicarse en GitHub Pages.
 
 Todo el contenido proviene exclusivamente de la presentación *Estrategia Banca Mayorista: Banca Empresarial 2027–2031*. No se incorporaron datos, métricas, KPIs ni fechas que no estén explícitos en la fuente.
