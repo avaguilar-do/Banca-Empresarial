@@ -81,3 +81,44 @@ activate(fromHash(), false);
 
 activate(fromHash() || VALID[0], false);
 })();
+
+/* =============================================================
+Resumen por mesa: selector de sesiones.
+Al elegir una sesión se muestra únicamente su detalle.
+============================================================= */
+(function () {
+"use strict";
+
+var botones = Array.prototype.slice.call(document.querySelectorAll(".sbtn"));
+var detalles = Array.prototype.slice.call(document.querySelectorAll(".sdetail"));
+if (!botones.length) return;
+
+function mostrar(id) {
+botones.forEach(function (b) {
+var on = b.dataset.session === id;
+b.classList.toggle("is-active", on);
+b.setAttribute("aria-expanded", on ? "true" : "false");
+});
+
+detalles.forEach(function (d) {
+var on = d.id === "sesion-" + id;
+d.classList.toggle("is-active", on);
+d.hidden = !on;
+});
+}
+
+botones.forEach(function (b) {
+b.addEventListener("click", function () {
+mostrar(b.dataset.session);
+
+// En pantallas angostas, lleva la vista al detalle recién abierto.
+if (window.matchMedia("(max-width: 860px)").matches) {
+var activo = document.querySelector(".sdetail.is-active");
+if (activo && activo.scrollIntoView) {
+activo.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+}
+});
+});
+})();
+
