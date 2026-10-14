@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Tablero ejecutivo de Banca Mayorista — Banca Empresarial, Grupo Consupago.">
+<meta name="theme-color" content="#16365C">
+<title>Banca Mayorista</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ============================================================
+ENCABEZADO + NAVEGACIÓN SUPERIOR
+============================================================ -->
+<header class="masthead">
+<div class="masthead__bar">
+<div class="wrap masthead__bar-inner">
+<span class="brand">Grupo Consupago</span>
+<span class="brand__meta">Estrategia Banca Mayorista · Banca Empresarial 2027–2031</span>
+</div>
+</div>
+
+<div class="wrap masthead__title">
+<div>
+<h1>Banca Mayorista</h1>
+<p class="masthead__sub">Banca Empresarial · Proveedores de cadenas de retail</p>
+</div>
+<div class="masthead__source">
+<span class="dot" aria-hidden="true"></span>
+Fuente única: presentación de estrategia
+</div>
+</div>
+
+<nav class="tabs" aria-label="Secciones del tablero">
+<div class="wrap tabs__inner" role="tablist">
+<button class="tab is-active" role="tab" id="tab-tablero" aria-controls="panel-tablero" aria-selected="true" data-target="tablero">Tablero</button>
+<button class="tab" role="tab" id="tab-oferta" aria-controls="panel-oferta" aria-selected="false" data-target="oferta">Oferta</button>
+<button class="tab" role="tab" id="tab-mesas" aria-controls="panel-mesas" aria-selected="false" data-target="mesas">Resumen por mesa</button>
+<button class="tab" role="tab" id="tab-actividades" aria-controls="panel-actividades" aria-selected="false" data-target="actividades">Actividades</button>
+<button class="tab" role="tab" id="tab-timeline" aria-controls="panel-timeline" aria-selected="false" data-target="timeline">Timeline del proyecto</button>
+</div>
+</nav>
+</header>
+
+<main id="contenido">
+
+<!-- ============================================================
+PESTAÑA 1 · TABLERO (fuente: slide 2)
+============================================================ -->
+<section class="panel is-active" id="panel-tablero" role="tabpanel" aria-labelledby="tab-tablero">
+<div class="wrap">
+
+<div class="section-head">
+<p class="eyebrow">Punto de partida</p>
+<h2>Contexto</h2>
+<p class="lede">Banca Empresarial forma parte de la Banca Mayorista. Hoy opera una cartera vigente de crédito
+estructurado y tradicional, y se proyecta hacia las pequeñas y medianas empresas.</p>
+</div>
+
+<!-- Indicadores de la situación actual -->
+<div class="kpis">
+<article class="kpi">
+<p class="kpi__label">Acreditados</p>
+<p class="kpi__value">29</p>
+<p class="kpi__note">Crédito estructurado y empresas referenciadas</p>
+</article>
+<article class="kpi kpi--accent">
+<p class="kpi__label">Cartera de crédito vigente</p>
+<p class="kpi__value">9,762 <span class="kpi__unit">mdp</span></p>
+<p class="kpi__note">Crédito estructurado / tradicional</p>
+</article>
+<article class="kpi">
+<p class="kpi__label">Créditos</p>
+<p class="kpi__value">66</p>
+<p class="kpi__note">Composición tradicional y estructurado</p>
+</article>
+</div>
+
+<!-- Composición de la cartera -->
+<div class="grid grid--2 gap-lg">
+<article class="card">
+<h3 class="card__title">Composición de créditos</h3>
+<div class="donut-block">
+<div class="donut" role="img" aria-label="66 créditos: 46 tradicionales (70%) y 20 estructurados (30%)">
+<svg viewBox="0 0 140 140" aria-hidden="true">
+<circle class="donut__track" cx="70" cy="70" r="54"></circle>
+<circle class="donut__seg donut__seg--trad" cx="70" cy="70" r="54"></circle>
+<circle class="donut__seg donut__seg--estr" cx="70" cy="70" r="54"></circle>
+</svg>
+<div class="donut__center">
+<span class="donut__num">66</span>
+<span class="donut__cap">créditos</span>
+</div>
+</div>
+<ul class="legend">
+<li><span class="swatch swatch--trad"></span>
+<span class="legend__name">C. Tradicional</span>
+<span class="legend__val">46 · 70%</span>
+</li>
+<li><span class="swatch swatch--estr"></span>
+<span class="legend__name">C. Estructurado</span>
+<span class="legend__val">20 · 30%</span>
+</li>
+</ul>
+</div>
+</article>
+
+<article class="card">
+<h3 class="card__title">Cartera vigente por tipo de crédito</h3>
+<ul class="bars">
+<li class="bar">
+<div class="bar__head"><span>C. Tradicional</span><strong>6,919 mdp</strong></div>
+<div class="bar__track"><div class="bar__fill bar__fill--trad" style="--w:100%"></div></div>
+</li>
+<li class="bar">
+<div class="bar__head"><span>C. Estructurado</span><strong>2,843 mdp</strong></div>
+<div class="bar__track"><div class="bar__fill bar__fill--estr" style="--w:41.1%"></div></div>
+</li>
+</ul>
+<p class="card__foot">Total de cartera de crédito vigente: 9,762 mdp.</p>
+</article>
+</div>
+
+<!-- Visión futura y rol estratégico -->
+<div class="grid grid--2 gap-lg">
+<article class="card card--navy">
+<p class="eyebrow eyebrow--onnavy">La Banca Empresarial del futuro</p>
+<p class="stat-line"><strong>52%</strong> del PIB de México lo representan, aproximadamente, las pequeñas y medianas empresas.</p>
+<p class="card__body">Buscamos ser el <strong>aliado</strong> de las empresas en México para seguir aportando al
+<strong>crecimiento económico del país</strong> mediante un acompañamiento personalizado y una oferta integral
+de productos y servicios.</p>
+<p class="pullquote">Potenciar lo que ya se tiene.<br>Construir disruptivamente.</p>
+</article>
+
+<article class="card">
+<p class="eyebrow">Rol estratégico</p>
+<h3 class="card__title">Dentro de Banca Mayorista</h3>
+<ul class="ticks">
+<li>Banca Empresarial es parte de la Banca Mayorista.</li>
+<li>Opera crédito estructurado y crédito tradicional con empresas acreditadas y referenciadas.</li>
+<li>Proyecta su crecimiento hacia las pequeñas y medianas empresas del país.</li>
+</ul>
+</article>
+</div>
+
+<!-- Decisiones pendientes -->
+<div class="section-head section-head--tight">
+<h2>Decisiones pendientes de dirección</h2>
+</div>
+<article class="state state--clear">
+<span class="state__icon" aria-hidden="true">
+<svg viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span>
+<div>
+<p class="state__title">No hay decisiones pendientes por el momento.</p>
+<p class="state__note">Sección preparada para registrar futuras decisiones de Dirección.</p>
+</div>
+<span class="pill pill--ok">Sin pendientes</span>
+</article>
+
+<!-- Alertas y riesgos -->
+<div class="section-head section-head--tight">
+<h2>Alertas y riesgos</h2>
+</div>
+<article class="state state--clear">
+<span class="state__icon" aria-hidden="true">
+<svg viewBox="0 0 24 24"><path d="M12 3l7.5 3.4v5c0 4.4-3.1 8.1-7.5 9.3C7.6 19.5 4.5 15.8 4.5 11.4v-5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+</span>
+<div>
+<p class="state__title">Sin riesgos detectados.</p>
+<p class="state__note">Sección preparada para el seguimiento de alertas y riesgos del proyecto.</p>
+</div>
+<span class="pill pill--ok">Sin alertas</span>
+</article>
+
+</div>
+</section>
+
+<!-- ============================================================
+PESTAÑA 2 · OFERTA (fuente: slides 8, 9 y 10)
+============================================================ -->
+<section class="panel" id="panel-oferta" role="tabpanel" aria-labelledby="tab-oferta" hidden>
+<div class="wrap">
+
+<div class="section-head">
+<p class="eyebrow">Propuesta de valor</p>
+<h2>Nuestra oferta</h2>
+<p class="lede">Nuestra oferta es para los proveedores de las cadenas de retail. Con una cuenta empresarial de saldo
+a la vista y cash management resolvemos su operación diaria: en ella reciben los pagos de las cadenas, lo que
+genera datos y conocimiento con los que habilitamos financiamiento personalizado.</p>
+</div>
+
+<!-- 1. Mercado objetivo -->
+<div class="grid grid--2 gap-lg">
+<article class="card card--outline">
+<p class="eyebrow">Nuestro mercado</p>
+<h3 class="card__title">Proveedores de cadenas de retail</h3>
+<p class="card__body">Empresas que venden a las grandes cadenas.</p>
+</article>
+<article class="card card--navy">
+<p class="eyebrow eyebrow--onnavy">Su necesidad</p>
+<h3 class="card__title">Liquidez y orden financiero</h3>
+<p class="card__body">Las cadenas les pagan a plazo y operan con flujos ajustados.</p>
+</article>
+</div>
+
+<!-- 2. Relación entre fases -->
+<div class="phase-strip">
+<div class="phase-strip__item">
+<span class="phase-tag">Fase 1</span>
+<p>Capturamos a los proveedores con cash management y construimos conocimiento.</p>
+</div>
+<span class="phase-strip__arrow" aria-hidden="true">→</span>
+<div class="phase-strip__item">
+<span class="phase-tag phase-tag--two">Fase 2</span>
+<p>Habilitamos crédito.</p>
+</div>
+</div>
+
+<!-- 3. Oferta de valor: habilitadores, datos, crédito -->
+<div class="grid grid--3 gap-lg">
+<article class="card">
+<p class="eyebrow">Los habilitamos con</p>
+<h3 class="card__title">Operación diaria</h3>
+<ul class="chips chips--solid">
+<li>Cuenta empresarial con saldo a la vista</li>
+<li>Cash management</li>
+</ul>
+<p class="card__sub">Todo lo que el proveedor necesita para operar</p>
+<ul class="list-compact">
+<li>Cobros de cadenas</li>
+<li>Nómina</li>
+<li>Pagos a sus proveedores</li>
+<li>Dispersión masiva</li>
+<li>Tesorería</li>
+<li>Cuentas productivas</li>
+<li>Inversión: CEDE / PRLV</li>
+<li>Dashboard: salud financiera y recomendaciones</li>
+</ul>
+</article>
+
+<article class="card">
+<p class="eyebrow eyebrow--accent">Generamos</p>
+<h3 class="card__title">Datos del proveedor</h3>
+<p class="card__sub">De sus cobros a las cadenas</p>
+<ul class="list-compact">
+<li>Ventas por cadena</li>
+<li>Recurrencia y antigüedad</li>
+<li>Plazos y devoluciones</li>
+</ul>
+<p class="card__sub">De su operación</p>
+<ul class="list-compact">
+<li>Flujos y excedentes</li>
+<li>Estacionalidad</li>
+<li>Nómina y gasto</li>
+</ul>
+<div class="knowledge">
+<p class="knowledge__title">Conocimiento del negocio</p>
+<p class="knowledge__note">Perfilamos y medimos riesgo</p>
+</div>
+<p class="card__foot">Convertimos la operación en conocimiento.</p>
+</article>
+
+<article class="card card--rail">
+<p class="eyebrow">Productos de crédito · Fase 2</p>
+<h3 class="card__title">Financiamiento personalizado</h3>
+<p class="card__body">Para el proveedor, según necesidad, plazo y riesgo.</p>
+<ul class="products">
+<li>
+<p class="product__name">Factoraje</p>
+<p class="product__desc">Cobra antes sus facturas a las cadenas, con tasa según desempeño.</p>
+<span class="term">Corto plazo</span>
+</li>
+<li>
+<p class="product__name">Crédito sin garantía</p>
+<p class="product__desc">Capital de trabajo y temporadas.</p>
+<span class="term">Corto a mediano plazo</span>
+</li>
+<li>
+<p class="product__name">Crédito con garantía</p>
+<p class="product__desc">Ampliar la capacidad y acceder a montos mayores.</p>
+<span class="term">Mediano a largo plazo</span>
+</li>
+</ul>
+</article>
+</div>
+
+<!-- 4. Motor -->
+<div class="engine">
+<p class="engine__label">Una estrategia, un mercado, un mismo motor</p>
+<ol class="engine__chain">
+<li>Operación</li>
+<li>Datos</li>
+<li>Conocimiento</li>
+<li>Oferta personalizada</li>
+<li>Mayor relación</li>
+</ol>
+</div>
+
+<!-- 5. Journey del cliente -->
+<div class="section-head">
+<p class="eyebrow">Flujo de atención</p>
+<h2>Journey del cliente y seguimiento personalizado</h2>
+</div>
+
+<div class="journey">
+<section class="stage">
+<header class="stage__head">
+<span class="stage__tag">Atracción y selección</span>
+</header>
+<div class="stage__body">
+<article class="mstep">
+<span class="mstep__id">M1</span>
+<p class="mstep__title">Cliente conoce a CSB</p>
+<p class="mstep__meta">Canales · Referidos</p>
+</article>
+<div class="decision">
+<p class="decision__q">¿Quién inicia el contacto?</p>
+<ul class="decision__opts">
+<li><strong>CSB</strong> · Se le asigna un ejecutivo</li>
+<li><strong>Cliente</strong> · Agenda una cita con el ejecutivo</li>
+</ul>
+</div>
+<article class="mstep">
+<span class="mstep__id">M2</span>
+<p class="mstep__title">Contacto con cliente empresarial</p>
+<p class="mstep__desc">Acercamiento para conocer a la empresa, sus necesidades y ofrecer la asesoría correspondiente.</p>
+<p class="mstep__meta">Canales: virtual / presencial</p>
+<ul class="chips">
+<li>Financiera</li>
+<li>Legal</li>
+<li>Fiscal</li>
+</ul>
+</article>
+</div>
+</section>
+
+<section class="stage">
+<header class="stage__head">
+<span class="stage__tag">Onboarding empresarial</span>
+</header>
+<div class="stage__body">
+<p class="stage__note">Registro ágil y guiado de la empresa, generando un expediente único que habilita y
+simplifica la contratación de futuros productos.</p>
+<article class="mstep">
+<span class="mstep__id">M3</span>
+<p class="mstep__title">Onboarding digital o asistido</p>
+<ul class="questions">
+<li>¿Quién es el cliente?</li>
+<li>¿Cuál es el nivel de riesgo?</li>
+<li>¿Qué oportunidades le podemos presentar?</li>
+</ul>
+<ul class="chips">
+<li>Identificación de empresa</li>
+<li>Validación de riesgo · KYC · Listas · PLD</li>
+<li class="is-accent">Expediente único del cliente</li>
+</ul>
+</article>
+</div>
+</section>
+
+<section class="stage">
+<header class="stage__head">
+<span class="stage__tag">Activación y operación</span>
+</header>
+<div class="stage__body">
+<p class="stage__note">Activación ágil de la cuenta e inicio inmediato de operaciones, con capacidades de cash
+management que simplifican la gestión financiera y generan conocimiento para habilitar nuevas soluciones.</p>
+<article class="mstep">
+<span class="mstep__id">M4</span>
+<p class="mstep__title">Apertura de cuenta</p>
+<p class="mstep__desc">Firma y activación de la cuenta.</p>
+</article>
+<article class="mstep">
+<span class="mstep__id">M5</span>
+<p class="mstep__title">Cash management</p>
+<p class="mstep__desc">Gestión integral de tesorería.</p>
+<ul class="chips">
+<li>Insights y gestión proactiva</li>
+<li>Flujos y alertas (IA)</li>
+<li>Saldo a la vista</li>
+</ul>
+</article>
+<aside class="policy">
+<p class="policy__title">Política de vigencia</p>
+<p>La funcionalidad estará activa durante 1 mes. Si, al término de ese plazo, la empresa no ha contratado una
+solución financiera, se suspenderá el servicio.</p>
+</aside>
+</div>
+</section>
+
+<section class="stage">
+<header class="stage__head">
+<span class="stage__tag">Financiamiento</span>
+</header>
+<div class="stage__body">
+<p class="stage__note">Ofrecer financiamiento ágil y acorde con las necesidades de la empresa para impulsar su
+operación y crecimiento.</p>
+<article class="mstep">
+<span class="mstep__id">M6</span>
+<p class="mstep__title">Soluciones financieras adicionales</p>
+<p class="mstep__desc">Solicitud simple, evaluación y dictamen ágiles.</p>
+<ul class="chips">
+<li>Factoraje</li>
+<li>Crédito · Garantía · Sin garantía</li>
+</ul>
+</article>
+</div>
+</section>
+</div>
+
+<div class="post-journey">
+<p class="post-journey__tag">Journey post-contratación</p>
+<p class="post-journey__lede">Acompañar a la empresa con atención personalizada y soluciones que fortalezcan la
+relación y evolucionen con su negocio.</p>
+<div class="grid grid--3">
+<article class="mstep mstep--block">
+<span class="mstep__id">M7</span>
+<p class="mstep__title">Bienvenida y acompañamiento inicial</p>
+<ul class="list-compact">
+<li>Carta de bienvenida y asignación de asesor</li>
+<li>Entrega de manual: canales, horarios y centros de atención</li>
+<li>Monitoreo y apoyo constante</li>
+</ul>
+</article>
+<article class="mstep mstep--block">
+<span class="mstep__id">M8</span>
+<p class="mstep__title">Adopción y uso efectivo</p>
+<ul class="list-compact">
+<li>Capacitación de tesorería</li>
+<li>Acompañamiento en primeras operaciones</li>
+<li>Seguimiento a servicios contratados que aún no utiliza</li>
+</ul>
+</article>
+<article class="mstep mstep--block">
+<span class="mstep__id">M9</span>
+<p class="mstep__title">Asesoría y optimización financiera</p>
+<ul class="list-compact">
+<li>Revisiones periódicas: cobros · pagos · liquidez</li>
+<li>Recomendaciones para mejorar su operación y anticipar necesidades</li>
+</ul>
+</article>
+</div>
+</div>
+
+<!-- 6. Ecosistema Nexus -->
+<div class="section-head">
+<p class="eyebrow">De la operación diaria a un ecosistema integral</p>
+<h2>Ecosistema Nexus</h2>
+</div>
+
+<div class="grid grid--2 gap-lg">
+<article class="card card--navy">
+<p class="pullquote pullquote--top">Nexus, tu negocio en un mismo lugar.</p>
+<p class="card__body">Ecosistema digital de Consubanco diseñado para centralizar la gestión financiera de las
+empresas en una sola plataforma.</p>
+<p class="card__body">Integra tesorería, pagos, transferencias, financiamiento e inversiones con analítica e
+inteligencia financiera, brindando una visión integral del negocio y facilitando una toma de decisiones más
+ágil, informada y eficiente.</p>
+<ul class="ticks ticks--onnavy">
+<li>Plataforma independiente en la web: <span class="mono">www.nexuscsb.com</span></li>
+<li>La PUC lleva al cliente empresarial a su sitio personalizado.</li>
+</ul>
+</article>
+
+<div class="stack">
+<article class="card card--rail">
+<p class="eyebrow">F1</p>
+<ul class="chips chips--solid">
+<li>Cuenta empresarial con saldo a la vista</li>
+<li>Contacto con asesores</li>
+<li>Transferencias masivas</li>
+<li>Flujo de caja</li>
+<li>IA Insights</li>
+<li>Tesorería</li>
+</ul>
+</article>
+<article class="card card--rail card--rail-accent">
+<p class="eyebrow eyebrow--accent">F2</p>
+<ul class="chips chips--solid">
+<li>Crédito (con garantía / sin garantía)</li>
+<li>Factoraje</li>
+<li>Inversiones</li>
+</ul>
+</article>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- ============================================================
+PESTAÑA 3 · RESUMEN POR MESA (sin información en la fuente)
+============================================================ -->
+<section class="panel" id="panel-mesas" role="tabpanel" aria-labelledby="tab-mesas" hidden>
+<div class="wrap">
+
+<div class="section-head">
+<p class="eyebrow">Seguimiento operativo</p>
+<h2>Resumen por mesa</h2>
+</div>
+
+<article class="state state--pending">
+<span class="state__icon" aria-hidden="true">
+<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+</span>
+<div>
+<p class="state__title">Información pendiente de definición.</p>
+<p class="state__note">La estructura queda preparada para incorporar las mesas de trabajo y su avance.</p>
+</div>
+<span class="pill pill--pending">Pendiente</span>
+</article>
+
+<!-- Arquitectura preparada para futuras actualizaciones -->
+<div class="grid grid--3 gap-lg">
+<article class="card card--ghost">
+<p class="ghost__slot">Mesa</p>
+<p class="ghost__line"></p>
+<p class="ghost__line ghost__line--short"></p>
+<p class="ghost__cap">Información pendiente de definición</p>
+</article>
+<article class="card card--ghost">
+<p class="ghost__slot">Mesa</p>
+<p class="ghost__line"></p>
+<p class="ghost__line ghost__line--short"></p>
+<p class="ghost__cap">Información pendiente de definición</p>
+</article>
+<article class="card card--ghost">
+<p class="ghost__slot">Mesa</p>
+<p class="ghost__line"></p>
+<p class="ghost__line ghost__line--short"></p>
+<p class="ghost__cap">Información pendiente de definición</p>
+</article>
+</div>
+
+</div>
+</section>
+
+<!-- ============================================================
+PESTAÑA 4 · ACTIVIDADES (fuente: slide 12)
+============================================================ -->
+<section class="panel" id="panel-actividades" role="tabpanel" aria-labelledby="tab-actividades" hidden>
+<div class="wrap">
+
+<div class="section-head">
+<p class="eyebrow">Prepararnos hoy para el mercado de mañana</p>
+<h2>Funcionalidades y capacidades</h2>
+<p class="lede">Para la ejecución del proyecto hay funcionalidades y capacidades que el banco debe contemplar y
+habilitar. Es necesario tomar decisiones para definir qué capacidades se desarrollan en el core bancario y cuáles
+se resuelven fuera de él.</p>
+</div>
+
+<div class="scope">
+<p class="scope__title">Funcionalidades · BP: Proveedores de Cadenas de Retail</p>
+<ul class="scope__list">
+<li>Crédito</li>
+<li>Servicios</li>
+<li>Captación / Inversiones</li>
+</ul>
+</div>
+
+<!-- Originación y contratación -->
+<div class="section-head section-head--tight">
+<h2 class="h3">Originación y contratación</h2>
+<p class="section-head__aside">Antes y durante la contratación</p>
+</div>
+<ul class="caps">
+<li class="cap"><span class="cap__id">C01</span><span class="cap__name">Experiencia y acompañamiento</span></li>
+<li class="cap"><span class="cap__id">C02</span><span class="cap__name">Gestión de prospectos y oportunidades</span></li>
+<li class="cap"><span class="cap__id">C03</span><span class="cap__name">Conocimiento y perfilamiento del cliente</span></li>
+<li class="cap"><span class="cap__id">C04</span><span class="cap__name">Evaluación de elegibilidad y riesgo</span></li>
+<li class="cap"><span class="cap__id">C05</span><span class="cap__name">Configuración y presentación de la oferta</span></li>
+<li class="cap"><span class="cap__id">C06</span><span class="cap__name">Expediente y validación documental</span></li>
+<li class="cap"><span class="cap__id">C07</span><span class="cap__name">Gestión de solicitudes y seguimiento</span></li>
+<li class="cap"><span class="cap__id">C08</span><span class="cap__name">Formalización y activación del producto</span></li>
+<li class="cap"><span class="cap__id">C09</span><span class="cap__name">Prevención de desviaciones</span></li>
+<li class="cap"><span class="cap__id">C10</span><span class="cap__name">Diagnóstico, medición y mejora</span></li>
+</ul>
+
+<!-- Banca activa -->
+<div class="section-head section-head--tight">
+<h2 class="h3">Banca activa</h2>
+<p class="section-head__aside">Durante toda la relación</p>
+</div>
+<ul class="caps">
+<li class="cap cap--b"><span class="cap__id">B01</span><span class="cap__name">Accesos, poderes y facultades</span></li>
+<li class="cap cap--b"><span class="cap__id">B02</span><span class="cap__name">Relación empresarial y actualización</span></li>
+<li class="cap cap--b"><span class="cap__id">B03</span><span class="cap__name">Administración de cuentas</span></li>
+<li class="cap cap--b"><span class="cap__id">B04</span><span class="cap__name">Pagos, cobros y conciliación</span></li>
+<li class="cap cap--b"><span class="cap__id">B05</span><span class="cap__name">Cash management y liquidez</span></li>
+<li class="cap cap--b"><span class="cap__id">B06</span><span class="cap__name">Administración del financiamiento</span></li>
+<li class="cap cap--b"><span class="cap__id">B07</span><span class="cap__name">Atención y resolución de casos</span></li>
+<li class="cap cap--b"><span class="cap__id">B08</span><span class="cap__name">Cobranza y recuperación de cartera</span></li>
+<li class="cap cap--b"><span class="cap__id">B09</span><span class="cap__name">Riesgo y cumplimiento continuo</span></li>
+</ul>
+
+<!-- Habilitadores transversales -->
+<div class="section-head section-head--tight">
+<h2 class="h3">Habilitadores transversales</h2>
+</div>
+
+<div class="enablers">
+<article class="enabler">
+<div class="enabler__head">
+<h3>Soluciones tecnológicas</h3>
+<p>Componentes funcionales propuestos para ejecutar y controlar procesos</p>
+</div>
+<ul class="chips chips--wrap">
+<li>CRM y gestión comercial</li>
+<li>Gestor de procesos, solicitudes y casos</li>
+<li>Motores de productos, precios, elegibilidad y riesgo</li>
+<li>Gestión documental, contratos y firma</li>
+<li>Identidad, accesos y autorizaciones</li>
+<li>Core, pagos, canales e integración</li>
+</ul>
+</article>
+
+<article class="enabler enabler--data">
+<div class="enabler__head">
+<h3>Datos</h3>
+<p>Conocer al cliente, reutilizar evidencias y medir la operación</p>
+</div>
+<ul class="chips chips--wrap">
+<li>Maestro de clientes y relaciones empresariales</li>
+<li>Expediente único y evidencias</li>
+<li>Productos y comportamiento transaccional</li>
+<li>Calidad, vigencia, permisos y trazabilidad</li>
+<li>Analítica, indicadores y alertas</li>
+</ul>
+</article>
+
+<article class="enabler enabler--ia">
+<div class="enabler__head">
+<h3>Inteligencia artificial</h3>
+<p>IA propuesta, sujeta a validación de casos de uso</p>
+</div>
+<ul class="chips chips--wrap">
+<li>Acompañamiento y consulta contextual</li>
+<li>Lectura y contraste documental</li>
+<li>Preparación de información para análisis</li>
+<li>Diagnóstico de fricciones y anomalías</li>
+<li>Interpretación de flujos y necesidades</li>
+</ul>
+</article>
+</div>
+
+</div>
+</section>
+
+<!-- ============================================================
+PESTAÑA 5 · TIMELINE DEL PROYECTO (fuente: slides 5 y 7)
+============================================================ -->
+<section class="panel" id="panel-timeline" role="tabpanel" aria-labelledby="tab-timeline" hidden>
+<div class="wrap">
+
+<div class="section-head">
+<p class="eyebrow">Construimos relaciones que evolucionan</p>
+<h2>Timeline del proyecto</h2>
+<p class="lede">Evolución estratégica del proyecto, desde el inicio del plan de negocios hasta la oferta completa
+de productos financieros.</p>
+</div>
+
+<ol class="timeline">
+<li class="tl">
+<span class="tl__marker" aria-hidden="true"></span>
+<div class="tl__card">
+<p class="tl__tag">Inicio</p>
+<h3 class="tl__title">El inicio de nuestro Plan de Negocios</h3>
+<p class="tl__desc">Arranque de la estrategia de Banca Empresarial dentro de Banca Mayorista.</p>
+</div>
+</li>
+<li class="tl tl--one">
+<span class="tl__marker" aria-hidden="true"></span>
+<div class="tl__card">
+<p class="tl__tag">Fase 1</p>
+<h3 class="tl__title">Conocer al proveedor y construir la relación</h3>
+<p class="tl__desc">Cash management, tesorería y cuenta empresarial con saldo a la vista para conocer al
+proveedor y construir la relación.</p>
+</div>
+</li>
+<li class="tl tl--two">
+<span class="tl__marker" aria-hidden="true"></span>
+<div class="tl__card">
+<p class="tl__tag">Fase 2</p>
+<h3 class="tl__title">Escalar a una oferta de productos financieros</h3>
+<p class="tl__desc">Ampliación de la relación hacia una oferta de productos financieros.</p>
+</div>
+</li>
+</ol>
+
+<div class="section-head section-head--tight">
+<h2 class="h3">Propuestas de valor</h2>
+<p class="section-head__aside">Por actor del ecosistema</p>
+</div>
+
+<div class="grid grid--3 gap-lg">
+<article class="card card--rail">
+<p class="eyebrow">Pequeñas y medianas empresas proveedoras</p>
+<p class="card__body"><strong>Impulsar</strong> su desarrollo y crecimiento al participar en un nicho
+subatendido, mediante una <strong>originación ágil</strong> con <strong>evaluación alternativa</strong> de sus
+flujos y una <strong>oferta multiproducto</strong>.</p>
+<p class="card__body">Construir un <strong>ecosistema</strong> que les permita ejecutar sus operaciones del día a
+día y establecer una relación a largo plazo (CLV).</p>
+</article>
+<article class="card card--rail">
+<p class="eyebrow">Cadena de retail</p>
+<p class="card__body">Fortalecer la <strong>propuesta de valor para proveedores y socios comerciales</strong>
+mediante soluciones financieras embebidas que mejoren su liquidez y capacidad operativa.</p>
+<p class="card__body">Impulsar la <strong>salud financiera del ecosistema</strong>, consolidar las relaciones
+estratégicas y generar <strong>ingresos adicionales</strong> a través de la monetización de servicios
+financieros.</p>
+</article>
+<article class="card card--rail">
+<p class="eyebrow">Chedraui</p>
+<p class="card__body">Participar en el <strong>ecosistema de proveedores</strong> de Chedraui, respetando el rol
+de Pronto Pago, para desarrollar una <strong>alianza</strong> que ofrezca soluciones integrales de
+<strong>financiamiento y cash management</strong> mediante una plataforma embebida, contribuyendo al
+fortalecimiento de su cadena de suministro al habilitar proveedores más grandes y sólidos, generando
+<strong>nuevos ingresos</strong> y mejores resultados para el banco.</p>
+</article>
+</div>
+
+<p class="note-inline">Las fechas de cada fase no están documentadas en la fuente. La sección queda preparada para
+incorporarlas cuando se definan.</p>
+
+</div>
+</section>
+
+</main>
+
+<footer class="foot">
+<div class="wrap foot__inner">
+<span>Grupo Consupago · Banca Mayorista</span>
+<span>Estrategia Banca Mayorista: Banca Empresarial 2027–2031</span>
+</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
