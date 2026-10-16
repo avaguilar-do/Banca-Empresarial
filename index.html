@@ -37,7 +37,8 @@ ENCABEZADO + NAVEGACIÓN SUPERIOR
 <button class="tab" role="tab" id="tab-oferta" aria-controls="panel-oferta" aria-selected="false" data-target="oferta">Propuesta de valor</button>
 <button class="tab" role="tab" id="tab-mesas" aria-controls="panel-mesas" aria-selected="false" data-target="mesas">Resumen por mesa</button>
 <button class="tab" role="tab" id="tab-actividades" aria-controls="panel-actividades" aria-selected="false" data-target="actividades">Actividades</button>
-<button class="tab" role="tab" id="tab-timeline" aria-controls="panel-timeline" aria-selected="false" data-target="timeline">Timeline del proyecto</button>
+<button class="tab" role="tab" id="tab-timeline" aria-controls="panel-timeline" aria-selected="false" data-target="timeline">Timeline</button>
+<button class="tab" role="tab" id="tab-silvergreen" aria-controls="panel-silvergreen" aria-selected="false" data-target="silvergreen">Silver Green</button>
 </div>
 </nav>
 </header>
@@ -70,16 +71,16 @@ de financiamiento. Actualmente, solo el 48% de las PyME cuenta con acceso a cré
 </div>
 <p>Actualmente, existe un fuerte respaldo de la banca de desarrollo para impulsar el financiamiento PyME. En este
 contexto, FIRA cubre entre 50% y 65% del riesgo según el esquema de garantía. Actualmente se busca una línea de
-$1,000 mdp con FIRA.</p>
+$2,000 mdp con FIRA.</p>
 </article>
 
 <article class="flujo__paso">
 <div class="flujo__head">
 <h3>Consubanco actualmente</h3>
 </div>
-<p>La cosecha propia actualmente es limitada (34 créditos empresariales) y el core no cuenta con un canal para
-personas morales. De forma paralela, se está explorando el acceso a bases de proveedores de cadenas de retail
-para identificar oportunidades de prospección e incursionar en el mercado PyME.</p>
+<p>La cosecha propia actualmente es limitada y el core no cuenta con un canal para personas morales. De forma
+paralela, se está explorando el acceso a bases de proveedores de cadenas de retail para identificar
+oportunidades de prospección e incursionar en el mercado PyME.</p>
 </article>
 
 <div class="flujo__head flujo__head--solo">
@@ -156,8 +157,8 @@ para identificar oportunidades de prospección e incursionar en el mercado PyME.
 </div>
 
 <article class="objetivo-proyecto">
-<p>Crear una nueva línea de negocio de Banca Empresarial para atender a pequeñas y medianas empresas mediante un
-ecosistema financiero integral que combine servicios transaccionales y financiamiento basado en datos
+<p>Lanzar la nueva línea de negocio de Banca Empresarial para atender a pequeñas y medianas empresas mediante
+un ecosistema financiero integral que combine servicios transaccionales y financiamiento basado en datos
 alternativos, generando crecimiento rentable, nuevas fuentes de ingresos y una cartera con riesgo controlado
 para Consubanco.</p>
 </article>
@@ -233,6 +234,11 @@ genera datos y conocimiento con los que habilitamos financiamiento personalizado
 <span class="phase-tag phase-tag--two">Fase 2</span>
 <p>Habilitamos crédito.</p>
 </div>
+<span class="phase-strip__arrow" aria-hidden="true">→</span>
+<div class="phase-strip__item">
+<span class="phase-tag phase-tag--three">Fase 3</span>
+<p>Inversión patrimonial: CEDE / PRLV.</p>
+</div>
 </div>
 
 <!-- 3. Oferta de valor: habilitadores, datos, crédito -->
@@ -252,7 +258,6 @@ genera datos y conocimiento con los que habilitamos financiamiento personalizado
 <li>Dispersión masiva</li>
 <li>Tesorería</li>
 <li>Cuentas productivas</li>
-<li>Inversión: CEDE / PRLV</li>
 <li>Dashboard: salud financiera y recomendaciones</li>
 </ul>
 </article>
@@ -303,6 +308,12 @@ genera datos y conocimiento con los que habilitamos financiamiento personalizado
 </article>
 </div>
 
+<article class="card card--rail card--rail-accent">
+<p class="eyebrow eyebrow--accent">Fase 3</p>
+<h3 class="card__title">Inversión patrimonial</h3>
+<p class="card__body">Inversión: CEDE / PRLV.</p>
+</article>
+
 <!-- 4. Motor -->
 <div class="engine">
 <p class="engine__label">Una estrategia, un mercado, un mismo motor</p>
@@ -321,151 +332,184 @@ genera datos y conocimiento con los que habilitamos financiamiento personalizado
 <h2>Journey del cliente y seguimiento personalizado</h2>
 </div>
 
-<div class="journey">
-<section class="stage">
-<header class="stage__head">
-<span class="stage__icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-9.8A4.2 4.2 0 0 1 12 8a4.2 4.2 0 0 1 7 3.2C19 16.5 12 21 12 21z"/></svg>
-</span>
-<span class="stage__tag">Atracción y selección</span>
-</header>
-<div class="stage__body">
-<article class="mstep">
-<span class="mstep__id">M1</span>
-<p class="mstep__title">Cliente conoce a CSB</p>
-<p class="mstep__meta">Canales · Referidos</p>
+<div class="flow">
+
+<!-- Etapa 1 -->
+<section class="fstage">
+<header class="fstage__head"><span>Atracción y selección</span></header>
+<div class="fstage__body">
+<article class="node">
+<span class="node__id">M1</span>
+<p class="node__title">Cliente conoce a CSB</p>
+<p class="node__meta">Canales · Referidos</p>
 </article>
-<div class="decision">
-<p class="decision__q">¿Quién inicia el contacto?</p>
-<ul class="decision__opts">
+
+<span class="fl fl--down" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15"/><path d="M6 13l6 6 6-6"/></svg>
+</span>
+
+<div class="gate">
+<p class="gate__q">¿Quién inicia el contacto?</p>
+<ul class="gate__opts">
 <li><strong>CSB</strong> · Se le asigna un ejecutivo</li>
 <li><strong>Cliente</strong> · Agenda una cita con el ejecutivo</li>
 </ul>
 </div>
-<article class="mstep">
-<span class="mstep__id">M2</span>
-<p class="mstep__title">Contacto con cliente empresarial</p>
-<p class="mstep__desc">Acercamiento para conocer a la empresa, sus necesidades y ofrecer la asesoría correspondiente.</p>
-<p class="mstep__meta">Canales: virtual / presencial</p>
-<ul class="chips">
+
+<span class="fl fl--down" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15"/><path d="M6 13l6 6 6-6"/></svg>
+</span>
+
+<article class="node">
+<span class="node__id">M2</span>
+<p class="node__title">Contacto con cliente empresarial</p>
+<p class="node__desc">Acercamiento para conocer a la empresa, sus necesidades y ofrecer la asesoría correspondiente.</p>
+<p class="node__meta">Canales: virtual / presencial</p>
+</article>
+<ul class="tags">
 <li>Financiera</li>
 <li>Legal</li>
 <li>Fiscal</li>
 </ul>
-</article>
 </div>
 </section>
 
-<section class="stage">
-<header class="stage__head">
-<span class="stage__icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M9.5 14.5l1.8 1.8 3.6-3.6"/></svg>
+<span class="fl" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
 </span>
-<span class="stage__tag">Onboarding empresarial</span>
-</header>
-<div class="stage__body">
-<p class="stage__note">Registro ágil y guiado de la empresa, generando un expediente único que habilita y
+
+<!-- Etapa 2 -->
+<section class="fstage">
+<header class="fstage__head"><span>Onboarding empresarial</span></header>
+<div class="fstage__body">
+<p class="fstage__note">Registro ágil y guiado de la empresa, generando un expediente único que habilita y
 simplifica la contratación de futuros productos.</p>
-<article class="mstep">
-<span class="mstep__id">M3</span>
-<p class="mstep__title">Onboarding digital o asistido</p>
-<ul class="questions">
+<article class="node">
+<span class="node__id">M3</span>
+<p class="node__title">Onboarding digital o asistido</p>
+<ul class="node__qs">
 <li>¿Quién es el cliente?</li>
 <li>¿Cuál es el nivel de riesgo?</li>
 <li>¿Qué oportunidades le podemos presentar?</li>
 </ul>
-<ul class="chips">
+</article>
+<ul class="tags tags--stack">
 <li>Identificación de empresa</li>
 <li>Validación de riesgo · KYC · Listas · PLD</li>
 <li class="is-accent">Expediente único del cliente</li>
 </ul>
-</article>
 </div>
 </section>
 
-<section class="stage">
-<header class="stage__head">
-<span class="stage__icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h15a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7l12-3v3"/><circle cx="16" cy="13" r="1.3"/></svg>
+<span class="fl" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
 </span>
-<span class="stage__tag">Activación y operación</span>
-</header>
-<div class="stage__body">
-<p class="stage__note">Activación ágil de la cuenta e inicio inmediato de operaciones, con capacidades de cash
-management que simplifican la gestión financiera y generan conocimiento para habilitar nuevas soluciones.</p>
-<article class="mstep">
-<span class="mstep__id">M4</span>
-<p class="mstep__title">Apertura de cuenta</p>
-<p class="mstep__desc">Firma y activación de la cuenta.</p>
+
+<!-- Etapa 3 -->
+<section class="fstage">
+<header class="fstage__head"><span>Activación y operación</span></header>
+<div class="fstage__body">
+<p class="fstage__note">Activación ágil de la cuenta e inicio inmediato de operaciones, con capacidades de
+cash management que simplifican la gestión financiera y generan conocimiento para habilitar nuevas
+soluciones.</p>
+<article class="node">
+<span class="node__id">M4</span>
+<p class="node__title">Apertura de cuenta</p>
+<p class="node__desc">Firma y activación de la cuenta.</p>
 </article>
-<article class="mstep">
-<span class="mstep__id">M5</span>
-<p class="mstep__title">Cash management</p>
-<p class="mstep__desc">Gestión integral de tesorería.</p>
-<ul class="chips">
+
+<span class="fl fl--down" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15"/><path d="M6 13l6 6 6-6"/></svg>
+</span>
+
+<article class="node">
+<span class="node__id">M5</span>
+<p class="node__title">Cash management</p>
+<p class="node__desc">Gestión integral de tesorería.</p>
+</article>
+<ul class="tags tags--stack">
 <li>Insights y gestión proactiva</li>
 <li>Flujos y alertas (IA)</li>
 <li>Saldo a la vista</li>
 </ul>
-</article>
 <aside class="policy">
 <p class="policy__title">Política de vigencia</p>
-<p>La funcionalidad estará activa durante 1 mes. Si, al término de ese plazo, la empresa no ha contratado una
-solución financiera, se suspenderá el servicio.</p>
+<p>La funcionalidad estará activa durante 1 mes. Si, al término de ese plazo, la empresa no ha contratado
+una solución financiera, se suspenderá el servicio.</p>
 </aside>
 </div>
 </section>
 
-<section class="stage">
-<header class="stage__head">
-<span class="stage__icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V11"/><path d="M10 19V7"/><path d="M16 19v-5"/><path d="M4 7l7-3 9 4"/></svg>
+<span class="fl" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
 </span>
-<span class="stage__tag">Financiamiento</span>
-</header>
-<div class="stage__body">
-<p class="stage__note">Ofrecer financiamiento ágil y acorde con las necesidades de la empresa para impulsar su
-operación y crecimiento.</p>
-<article class="mstep">
-<span class="mstep__id">M6</span>
-<p class="mstep__title">Soluciones financieras adicionales</p>
-<p class="mstep__desc">Solicitud simple, evaluación y dictamen ágiles.</p>
-<ul class="chips">
+
+<!-- Etapa 4 -->
+<section class="fstage">
+<header class="fstage__head"><span>Financiamiento</span></header>
+<div class="fstage__body">
+<p class="fstage__note">Ofrecer financiamiento ágil y acorde con las necesidades de la empresa para impulsar
+su operación y crecimiento.</p>
+<article class="node">
+<span class="node__id">M6</span>
+<p class="node__title">Soluciones financieras adicionales</p>
+<p class="node__desc">Solicitud simple, evaluación y dictamen ágiles.</p>
+</article>
+<ul class="tags tags--stack">
 <li>Factoraje</li>
 <li>Crédito · Garantía · Sin garantía</li>
 </ul>
-</article>
 </div>
 </section>
 </div>
 
-<div class="post-journey">
-<p class="post-journey__tag">Journey post-contratación</p>
-<p class="post-journey__lede">Acompañar a la empresa con atención personalizada y soluciones que fortalezcan la
+<!-- Journey post-contratación -->
+<div class="fback" aria-hidden="true">
+<span class="fback__line"></span>
+<span class="fback__cap">Continúa en el journey post-contratación</span>
+<span class="fback__line"></span>
+</div>
+
+<div class="post">
+<header class="post__head">
+<p class="post__tag">Journey post-contratación</p>
+<p class="post__lede">Acompañar a la empresa con atención personalizada y soluciones que fortalezcan la
 relación y evolucionen con su negocio.</p>
-<div class="grid grid--3">
-<article class="mstep mstep--block">
-<span class="mstep__head"><span class="mstep__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg></span><span class="mstep__id">M7</span></span>
-<p class="mstep__title">Bienvenida y acompañamiento inicial</p>
-<ul class="list-compact">
+</header>
+
+<div class="post__flow">
+<article class="node node--post">
+<span class="node__id">M7</span>
+<p class="node__title">Bienvenida y acompañamiento inicial</p>
+<ul class="node__list">
 <li>Carta de bienvenida y asignación de asesor</li>
 <li>Entrega de manual: canales, horarios y centros de atención</li>
 <li>Monitoreo y apoyo constante</li>
 </ul>
 </article>
-<article class="mstep mstep--block">
-<span class="mstep__head"><span class="mstep__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 9l6 3-6 3z"/></svg></span><span class="mstep__id">M8</span></span>
-<p class="mstep__title">Adopción y uso efectivo</p>
-<ul class="list-compact">
+
+<span class="fl" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
+</span>
+
+<article class="node node--post">
+<span class="node__id">M8</span>
+<p class="node__title">Adopción y uso efectivo</p>
+<ul class="node__list">
 <li>Capacitación de tesorería</li>
 <li>Acompañamiento en primeras operaciones</li>
 <li>Seguimiento a servicios contratados que aún no utiliza</li>
 </ul>
 </article>
-<article class="mstep mstep--block">
-<span class="mstep__head"><span class="mstep__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><path d="M7 19V9"/><path d="M12 19V5"/><path d="M17 19v-7"/></svg></span><span class="mstep__id">M9</span></span>
-<p class="mstep__title">Asesoría y optimización financiera</p>
-<ul class="list-compact">
+
+<span class="fl" aria-hidden="true">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
+</span>
+
+<article class="node node--post">
+<span class="node__id">M9</span>
+<p class="node__title">Asesoría y optimización financiera</p>
+<ul class="node__list">
 <li>Revisiones periódicas: cobros · pagos · liquidez</li>
 <li>Recomendaciones para mejorar su operación y anticipar necesidades</li>
 </ul>
@@ -558,7 +602,7 @@ fortalecimiento de su cadena de suministro al habilitar proveedores más grandes
 </section>
 
 <!-- ============================================================
-PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
+PESTAÑA 3 · RESUMEN POR MESA
 ============================================================ -->
 <section class="panel" id="panel-mesas" role="tabpanel" aria-labelledby="tab-mesas" hidden>
 <div class="wrap">
@@ -569,8 +613,35 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </div>
 
 <div class="sessions">
-<nav class="sessions__nav" aria-label="Sesiones de la mesa">
-<button class="sbtn is-active" type="button" data-session="s6" aria-controls="sesion-s6" aria-expanded="true">
+<nav class="sessions__nav" aria-label="Mesas">
+<p class="sessions__group">Mesas de trabajo</p>
+<button class="sbtn sbtn--next is-active" type="button" data-session="mt1" aria-controls="sesion-mt1" aria-expanded="true">
+<span class="sbtn__n">Mesa de trabajo</span>
+<span class="sbtn__t">Tecnología y Datos</span>
+<span class="sbtn__state">Por realizar</span>
+</button>
+<button class="sbtn sbtn--next" type="button" data-session="mt2" aria-controls="sesion-mt2" aria-expanded="false">
+<span class="sbtn__n">Mesa de trabajo</span>
+<span class="sbtn__t">Producto</span>
+<span class="sbtn__state">Por realizar</span>
+</button>
+<button class="sbtn sbtn--next" type="button" data-session="mt3" aria-controls="sesion-mt3" aria-expanded="false">
+<span class="sbtn__n">Mesa de trabajo</span>
+<span class="sbtn__t">Riesgos</span>
+<span class="sbtn__state">Por realizar</span>
+</button>
+<button class="sbtn sbtn--next" type="button" data-session="mt4" aria-controls="sesion-mt4" aria-expanded="false">
+<span class="sbtn__n">Mesa de trabajo</span>
+<span class="sbtn__t">Planeación Financiera</span>
+<span class="sbtn__state">Por realizar</span>
+</button>
+<button class="sbtn sbtn--next" type="button" data-session="mt5" aria-controls="sesion-mt5" aria-expanded="false">
+<span class="sbtn__n">Mesa de trabajo</span>
+<span class="sbtn__t">Operaciones</span>
+<span class="sbtn__state">Por realizar</span>
+</button>
+<p class="sessions__group">Mesas de investigación</p>
+<button class="sbtn" type="button" data-session="s6" aria-controls="sesion-s6" aria-expanded="false">
 <span class="sbtn__n">Sesión 6</span>
 <span class="sbtn__d">1 de septiembre de 2026</span>
 <span class="sbtn__t">Cierre de la mesa y transición a los business cases</span>
@@ -603,19 +674,184 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </nav>
 
 <div class="sessions__detail">
-<article class="sdetail is-active" id="sesion-s6">
+<article class="sdetail is-active" id="sesion-mt1">
+<header class="sdetail__head">
+<p class="sdetail__meta sdetail__meta--next">Mesa de trabajo · Por realizar</p>
+<h3>Tecnología y Datos</h3>
+<p class="sdetail__note">Estructura preparada para incorporar la minuta de la sesión.</p>
+</header>
+
+<section class="sblock sblock--empty">
+<h4>Objetivo</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Temas principales</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Acuerdos y conclusiones</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Participantes</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Próximos pasos</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+</article>
+
+<article class="sdetail" id="sesion-mt2" hidden>
+<header class="sdetail__head">
+<p class="sdetail__meta sdetail__meta--next">Mesa de trabajo · Por realizar</p>
+<h3>Producto</h3>
+<p class="sdetail__note">Estructura preparada para incorporar la minuta de la sesión.</p>
+</header>
+
+<section class="sblock sblock--empty">
+<h4>Objetivo</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Temas principales</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Acuerdos y conclusiones</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Participantes</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Próximos pasos</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+</article>
+
+<article class="sdetail" id="sesion-mt3" hidden>
+<header class="sdetail__head">
+<p class="sdetail__meta sdetail__meta--next">Mesa de trabajo · Por realizar</p>
+<h3>Riesgos</h3>
+<p class="sdetail__note">Estructura preparada para incorporar la minuta de la sesión.</p>
+</header>
+
+<section class="sblock sblock--empty">
+<h4>Objetivo</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Temas principales</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Acuerdos y conclusiones</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Participantes</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Próximos pasos</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+</article>
+
+<article class="sdetail" id="sesion-mt4" hidden>
+<header class="sdetail__head">
+<p class="sdetail__meta sdetail__meta--next">Mesa de trabajo · Por realizar</p>
+<h3>Planeación Financiera</h3>
+<p class="sdetail__note">Estructura preparada para incorporar la minuta de la sesión.</p>
+</header>
+
+<section class="sblock sblock--empty">
+<h4>Objetivo</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Temas principales</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Acuerdos y conclusiones</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Participantes</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Próximos pasos</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+</article>
+
+<article class="sdetail" id="sesion-mt5" hidden>
+<header class="sdetail__head">
+<p class="sdetail__meta sdetail__meta--next">Mesa de trabajo · Por realizar</p>
+<h3>Operaciones</h3>
+<p class="sdetail__note">Estructura preparada para incorporar la minuta de la sesión.</p>
+</header>
+
+<section class="sblock sblock--empty">
+<h4>Objetivo</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Temas principales</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Acuerdos y conclusiones</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Participantes</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+
+<section class="sblock sblock--empty">
+<h4>Próximos pasos</h4>
+<p class="sblock__pend">Información pendiente de definición.</p>
+</section>
+</article>
+
+<article class="sdetail" id="sesion-s6" hidden>
 <header class="sdetail__head">
 <p class="sdetail__meta">Sesión 6 · 1 de septiembre de 2026</p>
 <h3>Cierre de la mesa y transición a los business cases</h3>
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Cerrar el ciclo de trabajo expositivo y de descubrimiento de la mesa. La sesión revisó el estado de las capacidades tecnológicas del core bancario frente a los requerimientos de un crédito PYME y profundizó en las dos líneas de investigación trabajadas entre sesiones: el segmento de PYMEs lideradas por mujeres y el ecosistema de proveedores de Chedraui. Como cierre se formalizó la transición hacia los business cases que se presentarán a Dirección General.</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Capacidades del core y decisión de construir o comprar: el banco evalúa dos cores, Fiserv orientado a banca minorista y Temenos, hoy en banca de gobierno y planteado para banca mayorista. El core actual está fuertemente customizado para crédito institucional; configurar un producto nuevo toma entre una y dos semanas. Los créditos simples son relativamente sencillos de habilitar y los revolventes implican mayor complejidad y costo.</li>
 <li>Diferenciación digital: se planteó definir, dentro del business case, la propuesta de valor digital (banca web, banca móvil, solicitud de crédito en línea, canales de atención y agentes) con el mismo nivel de detalle que los productos crediticios.</li>
@@ -627,29 +863,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Se presentó como línea exploratoria adicional una oportunidad en créditos verdes o energéticos, que se acordó posponer para priorizar los dos business cases definidos.</li>
 </ul>
 </section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>Fiserv (banca minorista) y Temenos (banca mayorista) son los dos cores en evaluación; su viabilidad para banca empresarial no podrá confirmarse hasta definir los procesos y productos del nuevo segmento.</li>
-<li>El segmento de PYMEs lideradas por mujeres se confirma como prioridad, con cuidado y educación privada como el sector de mayor atractivo; el ecosistema de proveedores de Chedraui se mantiene como segunda línea prioritaria.</li>
-<li>Se confirma la construcción de dos business cases —PYMEs lideradas por mujeres y proveedores de Chedraui— como entregable formal de cierre de la mesa, con responsables asignados por sección.</li>
-<li>La decisión de construir o adquirir la capacidad de crédito PyME para atender a los proveedores de Chedraui permanece pendiente de resolución por Dirección General.</li>
-<li>La oportunidad de créditos verdes o energéticos se identifica como línea de exploración futura, fuera del alcance de los business cases actuales.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Entregar el draft de los dos business cases a Dirección General el 25 de septiembre de 2026.</li>
-<li>Negociar con Chedraui el acceso a una base de datos de proveedores más completa y actualizada.</li>
-<li>Formalizar la decisión de construir o adquirir la capacidad de crédito PyME.</li>
-<li>Definir la arquitectura objetivo del core bancario, sus módulos y las integraciones externas requeridas.</li>
-<li>Diseñar y validar los pilotos funcionales y no funcionales entre septiembre y diciembre de 2026.</li>
-<li>Convocar a los equipos comercial y de estrategia en grupos de trabajo para dar seguimiento a los business cases.</li>
-</ul>
-</section>
 </article>
 
 <article class="sdetail" id="sesion-s5" hidden>
@@ -659,12 +872,12 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Identificar con precisión lo que falta para poder lanzar un crédito PYME y priorizarlo por impacto y viabilidad, como insumo del diagnóstico de brechas que se cierra en la Sesión 6. A diferencia de las sesiones anteriores, se desarrolló como dinámica de trabajo en equipo: dos equipos trabajaron de forma independiente sobre cuatro canvases idénticos (FODA; mercado y sectores; riesgos y regulación; tecnología, datos y estrategia).</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Fortalezas y posicionamiento: la licencia bancaria vigente y el acceso a fondeo de banca de desarrollo (NAFIN y FIRA) se identificaron como las principales ventajas frente a la competencia fintech, junto con el acceso a fuentes de datos alternativas ya disponibles.</li>
 <li>Brechas críticas: ambos equipos coincidieron, de manera independiente, en que la adecuación del core tecnológico y la ausencia de un modelo de riesgo propio son las dos limitantes más críticas, por encima de cualquier otra consideración de mercado o producto. También se señaló la falta de talento y estructura especializada.</li>
@@ -672,28 +885,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Vía de entrada: se planteó, como alternativa a la construcción orgánica del producto, adquirir una financiera de crédito PyME ya constituida. La decisión no se resolvió en la sesión.</li>
 <li>Riesgos y restricciones: ausencia de un modelo de riesgo calibrado, riesgos de ciberseguridad y escalabilidad de la infraestructura, y necesidad de fortalecer cobranza y recuperación. En el frente regulatorio quedan pendientes la ficha de gobierno del producto, el registro de producto, la documentación de obligaciones regulatorias y la matriz de riesgos y controles.</li>
 <li>Condiciones para avanzar: un core con capacidad y flexibilidad suficientes, la canasta de productos y servicios de la primera fase definida, y una estructura de operación rentable.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>La adecuación tecnológica y la falta de un modelo de riesgo propio se confirmaron como las brechas más críticas para el desarrollo de Banca Empresarial.</li>
-<li>La proveeduría de Chedraui y el factoraje se confirmaron como las líneas de mayor prioridad para continuar la exploración de mercado.</li>
-<li>Se identificó una divergencia entre equipos sobre el atractivo del sector manufactura, pendiente de resolución.</li>
-<li>La decisión de construir o adquirir la capacidad de crédito PyME quedó abierta y deberá resolverse de forma formal.</li>
-<li>Se identificaron pendientes regulatorios —gobierno de producto, matriz de riesgos y controles, y registro de producto— que deberán integrarse al diagnóstico de brechas.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Resolver de manera formal la decisión de construir o adquirir como vía de entrada al segmento.</li>
-<li>Incorporar al diagnóstico consolidado de brechas la priorización de la adecuación tecnológica y el modelo de riesgo.</li>
-<li>Resolver la divergencia identificada sobre el atractivo del sector manufactura.</li>
-<li>Definir la estructura de gobierno y los requisitos regulatorios pendientes del producto.</li>
-<li>Sesión 6: diagnóstico, cierre de fase y preparación del reporte ejecutivo.</li>
 </ul>
 </section>
 </article>
@@ -705,12 +896,12 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Avanzar en la construcción del modelo de originación y segmentación para Banca Empresarial, integrando tres frentes: el inventario de fuentes de datos disponibles sobre la PYME, el mapeo del proceso de originación con sus indicadores de mercado, y el benchmark competitivo. El objetivo central hacia el cierre de la mesa es llegar a una definición completa del cliente objetivo que permita priorizar productos, dimensionar la originación y alinear el trabajo con la consultora.</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Inventario de fuentes de datos: CRM y core del banco, SAT e IMSS con consentimiento del titular, Buró de Empresas y Círculo de Crédito, convenio con proveedores de Chedraui, y datos públicos de INEGI y SIEM.</li>
 <li>Propuesta de segmentación por atractivo comercial en cuatro grupos: Core dependiente, Diversificado estable, Emergente-alto crecimiento y Riesgo-informal. Se planteó un score de prospección tipo RFM y un score del representante legal, cruzados con la probabilidad de incumplimiento para definir la matriz de política de crédito.</li>
@@ -719,27 +910,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Matriz de productos: Consubanco ofrece hoy únicamente crédito a plazo o simple. Frente a Kapital, Konfío y Finsus se identificaron oportunidades en crédito revolvente, factoraje, cash management, terminales punto de venta, divisas, fideicomiso y seguros generales.</li>
 <li>Benchmark Finsus: evolución de SOFIPO de transporte a plataforma cien por ciento digital, captación de 21,092 millones y colocación de 16,314 millones entre 1,137 clientes PYME, morosidad de 1.52%, adquisiciones estratégicas y rechazo de la CNBV a su solicitud de licencia bancaria en 2026.</li>
 <li>Benchmark internacional: Starling Bank (licenciamiento del core a terceros), Judo Bank (banquero dedicado y juicio humano en tickets altos), WeBank (costo de adquisición casi nulo vía WeChat) y MyBank (modelo 3-1-0 basado en flujo transaccional, sin expediente financiero).</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>Es necesario extender la investigación más allá de la originación hacia la administración de cartera, la cobranza y el seguimiento al cliente. Al no ser información pública, se abordará con investigación interna.</li>
-<li>La contratación de la consultora que desarrollará el business plan está en proceso: ciclo estimado de seis semanas, incluyendo los blueprints de infraestructura, capital humano y áreas requeridas. Se conformará un equipo de la mesa para trabajar con ella.</li>
-<li>Antes de definir el cliente objetivo es indispensable cerrar los consentimientos y convenios pendientes (SAT, IMSS, representante legal, Buró de Empresas y proveedores de Chedraui), de los que depende la calidad del dato.</li>
-<li>Se reconoce la necesidad de estimar, con apoyo de la consultora, la capacidad de colocación esperada a 6, 12 y 24 meses frente al ciclo completo del proyecto a cinco años.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Compartir con la mesa completa la presentación detallada de Finsus, el benchmark internacional y la investigación de Clara.</li>
-<li>Definir el equipo de la mesa que trabajará junto con la consultora contratada.</li>
-<li>Levantar y estructurar internamente el proceso de administración de cartera y cobranza.</li>
-<li>Formalizar los consentimientos y convenios de datos pendientes.</li>
-<li>Cerrar en las próximas sesiones la definición del cliente objetivo (tamaño, sector y antigüedad), el alcance de productos de la primera fase y los indicadores de seguimiento.</li>
 </ul>
 </section>
 </article>
@@ -751,12 +921,12 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Dar seguimiento a los acuerdos de la Sesión 2, presentar la segmentación interna disponible y el análisis de mercado objetivo, exponer la voz del cliente desde Crédito Comercial y Banca de Gobierno, contrastar las definiciones de PYME que maneja cada área y avanzar hacia la definición de la PYME objetivo del banco.</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Análisis de mercado objetivo: universo de empresas pequeñas y medianas bancarizadas identificadas por la CNBV, con concentración geográfica en Ciudad de México, Nuevo León, Jalisco, Estado de México y Guanajuato, y mayor oportunidad de ingresos en manufactura, comercio y servicios.</li>
 <li>Fuentes de financiamiento actuales del segmento: 60% proveedores, 25% banca empresarial, 10% préstamos entre empresas, 2% banca extranjera, 2% banca de desarrollo y 1% emisión de deuda.</li>
@@ -764,28 +934,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Ciclo de vida financiero del cliente empresarial: liquidez e inventario, financiamiento de operación, facturación, cobranza e inversión de excedentes, con oportunidad identificada en crédito empresarial y captación de excedentes operativos.</li>
 <li>Fondeo: líneas Nafin y FIRA, fondeo global del banco y captación de las propias empresas. Se descartó el fondeo vía Banca de Gobierno.</li>
 <li>Exploración de aliados externos: Banca Mayorista analiza una posible relación con Cumplo, factoraje PYME chileno con nueve años en México y ticket promedio de 2 a 3 millones de pesos, como vehículo complementario al crédito. Es una exploración en curso, no una decisión.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>La discusión de rentabilidad convergió hacia tres métricas de referencia: margen operativo, RAROC e índice de eficiencia. Fue un tema tratado, no una decisión formal ratificada.</li>
-<li>Un primer ejercicio ilustrativo señaló que, partiendo de una tasa de 17% y descontando aproximadamente 10 puntos de costos, la rentabilidad teórica rondaría el 7%, en línea con el rango de mercado de 5% a 8%. El ejercicio es preliminar y no constituye una meta aprobada.</li>
-<li>Restricción identificada en el modelo de proveedores de Chedraui: compartir esa información con el banco requeriría autorización expresa de los clientes de Chedraui, no contemplada en su aviso de privacidad. Se sugirió incorporarlo como objetivo de la negociación.<span class="owner">Gabriela Hernández</span></li>
-<li>La definición consensuada de la PYME objetivo (quién es el cliente, qué se le ofrecerá y cuál será la exposición del banco) no se cerró; queda pendiente para la Sesión 4.</li>
-<li>Finanzas deberá constituir su propio comité ALCO para definir tanto las tasas de captación como las tasas a las que el banco fondeará el crédito de Banca Empresarial.<span class="owner">Rolando Galindo</span></li>
-<li>Se mantiene el mecanismo de seguimiento de acuerdos vía informe escrito en el repositorio compartido, sin presentación individual en la mesa.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Continuar y cerrar el debate de cruces y brechas identificado en esta sesión.</li>
-<li>Constituir el comité ALCO en Finanzas para definir tasas de captación y fondeo.</li>
-<li>Cerrar la definición consensuada de la PYME objetivo: cliente, oferta y exposición de riesgo.</li>
-<li>Sesión 4: capacidades internas de tecnología, operaciones y marco regulatorio. Miércoles 29 de julio, de 10:00 a 12:00 h.</li>
 </ul>
 </section>
 </article>
@@ -797,12 +945,12 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Revisar qué sabe cada área sobre el segmento PYME y contrastar ese conocimiento con lo que ya hace el mercado, para identificar brechas y oportunidades de diferenciación. Las siete áreas de la mesa expusieron su investigación e insumos disponibles. Por restricción de tiempo no se alcanzó el debate de cruces, brechas y primeras conclusiones.</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Estrategia: primer borrador de la visión a 2031 para Banca Empresarial, con dos modelos de banca con identidad y resultados propios, Banca Mayorista y Banca Minorista. Tres prioridades estratégicas: optimizar la banca de personas físicas, diversificar hacia nuevos mercados vía Banca Mayorista y crear la nueva línea de negocio PYME.</li>
 <li>Benchmark de participación en cartera de crédito comercial: Consubanco ronda 0.2%, frente a 1.5% de Kapital y 1.3% de Finsus. Kapital es más rentable en ROE por su captación a la vista; Consubanco está mejor posicionado en ROA.</li>
@@ -817,31 +965,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Benchmarks y tendencias: catálogo base de productos del mercado, y como líneas a explorar seguros paramétricos, factoraje inverso replicable con otras cadenas, crédito basado en datos de terminales punto de venta, agentes de IA, acceso a facturación CFDI/SAT, y financiamiento tipo compra ahora, paga después. Se propusieron una academia PYME y una comunidad PYME como multiplicadores del negocio.</li>
 </ul>
 </section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>El debate de cruces, brechas y primeras conclusiones no se alcanzó por tiempo; queda pendiente para el inicio de la Sesión 3.<span class="owner">Todos — modera Bernardo Flores Sánchez</span></li>
-<li>Homologar la discrepancia en el tamaño de mercado: 246,000 PYMEs según Estrategia frente a 361,000 pequeñas y medianas según Riesgo. Se requiere alinear fuente, año y metodología.</li>
-<li>Afinar el modelo de rentabilidad: costo de originación (10% se considera fuera de mercado), costo de fondeo y costo de servicing por canal.<span class="owner">Alma Delia Domínguez Cabrera</span></li>
-<li>Preparar el mapeo completo del flujo de originación de competidores, con tiempos reales por etapa.<span class="owner">Jonathan García Huerta</span></li>
-<li>Agendar reunión con Chedraui para entender el detalle y la calidad de la información transaccional disponible y definir las variables del scoring alternativo.<span class="owner">Bernardo Flores Sánchez / Alfredo Flores</span></li>
-<li>Definir el nombre definitivo de la plataforma, dado el conflicto con “Impulsa” de Actinver.<span class="owner">Bernardo Flores Sánchez / Equipo BFS</span></li>
-<li>Compartir en el repositorio el detalle completo de la agenda de supervisión de FIRA.<span class="owner">Carlos Budar Mejía</span></li>
-<li>Validar el costo real de servicing por crédito vigente y el costo del canal de brokers.<span class="owner">Rolando Galindo Gálvez</span></li>
-<li>Definir los sectores prioritarios de atención y las variables de riesgo diferenciadas por sector.<span class="owner">Federico Lage Ramírez / Edwin Gerardo Maldonado Ramos</span></li>
-<li>Explorar proveedores externos de datos de incumplimiento para calibrar el modelo de riesgo.<span class="owner">Edwin Gerardo Maldonado Ramos</span></li>
-<li>Preparar contenido más puntual de Data Hub (universos de datos y diseño de historificación) para la Sesión 3.<span class="owner">Federico Lage Ramírez</span></li>
-<li>Definir el umbral de ticket a partir del cual se exigirán garantías reales adicionales, en discusión entre 2 y 3 millones de pesos.</li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Sesión 3: ¿Quién es nuestro cliente? Definición del segmento objetivo, producto y proceso. Lunes 13 de julio de 2026, de 12:00 a 14:00 h.</li>
-</ul>
-</section>
 </article>
 
 <article class="sdetail" id="sesion-s1" hidden>
@@ -851,12 +974,12 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </header>
 
 <section class="sblock">
-<h4>Objetivo de la sesión</h4>
+<h4>Objetivo</h4>
 <p>Sesión constitutiva de la Mesa de Investigación PYME 2026: constituir la mesa, alinear roles y presentar la estructura del business plan PYME, cuyo entregable final es el Capítulo 1 del Business Plan PYME. El propósito de fondo es sustentar ante la dirección del banco y los consultores externos la viabilidad de entrar al segmento PYME con un modelo de crédito propio.</p>
 </section>
 
 <section class="sblock">
-<h4>Temas principales abordados</h4>
+<h4>Temas principales</h4>
 <ul class="sbullets">
 <li>Estructura propuesta del business plan: contexto del mercado PYME, benchmarking de competidores, buyer persona y propuesta de valor, modelo de distribución, y arquetipos y propuesta para Consubanco.</li>
 <li>Tamaño del mercado: 5.5 millones de unidades económicas activas en México, de las cuales 95% son microempresas y quedan fuera del alcance. El foco está en las pequeñas y medianas, aproximadamente 250,000 empresas.</li>
@@ -869,29 +992,6 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 <li>Metodología de la mesa: seis sesiones quincenales de aproximadamente 90 minutos, con suplente designado en caso de ausencia.</li>
 </ul>
 </section>
-
-<section class="sblock">
-<h4>Acuerdos y conclusiones</h4>
-<ul class="sbullets sbullets--ac">
-<li>Preparar el inventario de investigaciones internas de cada área para la Sesión 2.<span class="owner">Todos los participantes</span></li>
-<li>Continuar el análisis de rentabilidad de las carteras actuales para extenderlo al modelo PYME.<span class="owner">Alma Domínguez</span></li>
-<li>Diseñar los procesos de adquisición de datos para la evaluación de carteras PYME.<span class="owner">Federico Lage</span></li>
-<li>Tomar la decisión sobre consultores externos (McKinsey o Akya).<span class="owner">Bernardo Flores</span></li>
-<li>Analizar el portal de adquisiciones de Chedraui y su modelo de interacción con proveedores.<span class="owner">Por definir</span></li>
-<li>Revisar las capacidades del módulo de crédito del core para productos PYME.<span class="owner">Miguel Ángel Matus</span></li>
-</ul>
-</section>
-
-<section class="sblock">
-<h4>Próximos pasos</h4>
-<ul class="sbullets sbullets--next">
-<li>Resolver la selección del consultor externo la semana siguiente a la sesión.</li>
-<li>Evaluar la viabilidad de la Tesis 1 (Chedraui) frente a tres barreras: falta de interés actual, partes relacionadas y ausencia de beneficio percibido.</li>
-<li>Definir el tipo de crédito inicial (simple, revolvente o reverse factoring), contrastándolo con las capacidades del core.</li>
-<li>Evaluar la viabilidad, en capital y riesgo, de ampliar la línea FIRA a 1,500 millones de pesos.</li>
-<li>Cerrar la clasificación definitiva de arquetipos de proveedores y sus necesidades financieras diferenciadas.</li>
-</ul>
-</section>
 </article>
 </div>
 </div>
@@ -900,118 +1000,200 @@ PESTAÑA 3 · RESUMEN POR MESA (fuente: minutas Mesa PYME 2026)
 </section>
 
 <!-- ============================================================
-PESTAÑA 4 · ACTIVIDADES (fuente: slide 5 del tablero de trazabilidad)
+PESTAÑA 4 · ACTIVIDADES (fuente: slide 4, tablero de trazabilidad)
 ============================================================ -->
 <section class="panel" id="panel-actividades" role="tabpanel" aria-labelledby="tab-actividades" hidden>
 <div class="wrap">
 
 <div class="section-head">
-<h2>Actividades</h2>
-<p class="lede">Tareas realizadas, actuales y pendientes del proyecto.</p>
+<h2>Avance del proyecto</h2>
+<p class="lede">Actividades realizadas y pendientes.</p>
 </div>
 
-<!-- Próximas a vencer -->
+<!-- Actuales y pendientes -->
 <section class="bloque bloque--next">
 <header class="bloque__head">
 <span class="bloque__icon" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M3.5 10h17"/><path d="M8 3v4"/><path d="M16 3v4"/></svg>
 </span>
-<h3>Próximas a vencer</h3>
-<span class="bloque__n">2</span>
-</header>
-<ol class="tasks tasks--orden">
-<li class="task">
-<span class="task__mark" aria-hidden="true"></span>
-<div class="task__body">
-<p class="task__name">Validación del SOW y definición de la versión final</p>
-<p class="task__meta">26 de octubre</p>
-</div>
-</li>
-<li class="task">
-<span class="task__mark" aria-hidden="true"></span>
-<div class="task__body">
-<p class="task__name">Mesas de trabajo</p>
-<p class="task__meta">Inicio de diciembre</p>
-<ul class="task__sub">
-<li>Tecnología y Datos</li>
-<li>Producto</li>
-<li>Riesgos</li>
-<li>Planeación Financiera</li>
-<li>Operaciones</li>
-</ul>
-</div>
-</li>
-</ol>
-</section>
-
-<!-- En proceso -->
-<section class="bloque bloque--curso">
-<header class="bloque__head">
-<span class="bloque__icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
-</span>
-<h3>En proceso</h3>
-<span class="bloque__n">2</span>
+<h3>Actuales y pendientes</h3>
+<span class="bloque__n">11</span>
 </header>
 <ul class="tasks">
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Construcción del Caso de Negocio</p>
-<p class="task__meta">En curso</p>
+<p class="task__name">Validación del SOW y definición de la versión final</p>
+<p class="task__meta">26 de octubre</p>
 </div>
 </li>
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Validación del SOW y definición de la versión final</p>
-<p class="task__meta">26 de octubre</p>
+<p class="task__name">Diseño de los procesos operativos junto con el área de operaciones, por tipo de producto y transversalidad con Banca Mayorista (flujo de modelo operativo)</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Coordinación de mesas de trabajo para definiciones necesarias por área: Tecnología y Datos, Producto, Riesgos, Planeación Financiera y Operaciones</p>
+<p class="task__meta">Inicios de diciembre</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Diseño de condiciones de producto junto con Hub de Innovación</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Diseño de pilotos no funcionales junto con Hub de Innovación</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Diseño financiero coordinado con los costos de tecnología y go to market</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Construcción de Statement tecnología</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Acompañamiento contratación módulos Temenos</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Definiciones finales de CRM para expediente único de cliente</p>
+<p class="task__meta">Fecha por definir</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Diseñar proceso de due diligence</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Presentación del Business Plan final</p>
+<p class="task__meta">Fecha por definir</p>
 </div>
 </li>
 </ul>
 </section>
 
-<!-- Completadas -->
+<!-- Realizadas -->
 <section class="bloque bloque--done">
 <header class="bloque__head">
 <span class="bloque__icon" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg>
 </span>
-<h3>Completadas</h3>
-<span class="bloque__n">4</span>
+<h3>Realizadas</h3>
+<span class="bloque__n">13</span>
 </header>
 <ul class="tasks">
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Mesas de investigación</p>
+<p class="task__name">Benchmark de competencia en el mercado, funnel de tasas, de procesos, de productos, productos de competencia</p>
+<p class="task__meta">Con actualización periódica</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Coordinación de las mesas de Banca Empresarial PyME</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Seguimiento de 6 mesas de investigación de Banca Empresarial PyME</p>
 <p class="task__meta">8 de junio a 1 de septiembre</p>
 </div>
 </li>
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Business Case</p>
-<p class="task__meta">25 de septiembre</p>
+<p class="task__name">Información e investigación para construcción de business case proveedores de cadenas de retail y mujeres empresarias</p>
 </div>
 </li>
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Definición de productos</p>
-<p class="task__meta">Proveedores de retail</p>
-<ul class="task__sub">
-<li>F1: Cash Management</li>
-<li>F2: Crédito simple con/sin garantía</li>
-<li>Factoraje</li>
-</ul>
+<p class="task__name">Construcción de business case proveedores de cadenas de retail y mujeres empresarias</p>
+<p class="task__meta">10 sep</p>
 </div>
 </li>
 <li class="task">
 <span class="task__mark" aria-hidden="true"></span>
 <div class="task__body">
-<p class="task__name">Presentación Planeación Banca Empresarial</p>
-<p class="task__meta">6 de octubre</p>
+<p class="task__name">Coordinación de equipo directivo para la construcción preliminar de business case proveedores de cadenas de retail y mujeres empresarias</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Fase 1 de construcción de business case: unir información de mesas y equipo directivo</p>
+<p class="task__meta">18 sep</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Presentación de business cases (Mujeres empresarias y proveedores de cadenas de retail) a dirección general; correcciones necesarias para presentar en la planeación estratégica 2027-2031</p>
+<p class="task__meta">viernes 25 de septiembre</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Definición de productos para los business cases (F1 Cash Management; F2 Crédito simple con/sin garantía y factoraje)</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Presentación de business case de Banca Empresarial - Proveedores de Cadenas de Retail, en la planeación estratégica 2027-2031</p>
+<p class="task__meta">martes 6 de octubre</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Validación de aliado SilverGreen para posibles adquisiciones, para que el lanzamiento de la banca sea más sencillo y con menos fricciones</p>
+<p class="task__meta">17 sep</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Benchmark de posibles candidatos para alianzas</p>
+<p class="task__meta">21 sep</p>
+</div>
+</li>
+<li class="task">
+<span class="task__mark" aria-hidden="true"></span>
+<div class="task__body">
+<p class="task__name">Seguimiento con SilverGreen en un plan de trabajo construido</p>
+<p class="task__meta">14 - 15 oct</p>
 </div>
 </li>
 </ul>
@@ -1021,18 +1203,19 @@ PESTAÑA 4 · ACTIVIDADES (fuente: slide 5 del tablero de trazabilidad)
 </section>
 
 <!-- ============================================================
-PESTAÑA 5 · TIMELINE DEL PROYECTO (fuente: slides 5 y 7)
+PESTAÑA 5 · TIMELINE (fuente: slide 5, tablero de trazabilidad)
 ============================================================ -->
 <section class="panel" id="panel-timeline" role="tabpanel" aria-labelledby="tab-timeline" hidden>
 <div class="wrap">
 
 <div class="section-head">
-<h2>Timeline del proyecto</h2>
-<p class="lede">Draft del plan de trabajo, en construcción.</p>
+<h2>Timeline del Business Plan</h2>
+<p class="lede">En construcción.</p>
 </div>
 
 <ul class="road__legend">
 <li><span class="sw sw--done" aria-hidden="true"></span>Realizada</li>
+<li><span class="sw sw--period" aria-hidden="true"></span>Actualización periódica</li>
 <li><span class="sw sw--curso" aria-hidden="true"></span>En curso / fecha indicada</li>
 <li><span class="sw sw--tent" aria-hidden="true"></span>Tentativo, por definir</li>
 <li><span class="sw sw--pend" aria-hidden="true"></span>Pendiente</li>
@@ -1043,78 +1226,441 @@ PESTAÑA 5 · TIMELINE DEL PROYECTO (fuente: slides 5 y 7)
 <div class="road__row road__row--head">
 <div class="road__act">Actividad</div>
 <div class="road__track road__track--head">
-<span>Previo</span>
-<span>12 oct</span>
-<span>19 oct</span>
-<span>26 oct</span>
-<span>2 nov</span>
-<span>9 nov</span>
-<span>16 nov</span>
-<span>23 nov</span>
-<span>30 nov</span>
-<span>Por definir</span>
+<span>Jun</span>
+<span>Jul</span>
+<span>Ago</span>
+<span>Sep</span>
+<span>Oct</span>
+<span>Nov</span>
+<span>Dic</span>
+<span>Sin fecha</span>
+</div>
+</div>
+
+<p class="road__group">Realizadas</p>
+<div class="road__row">
+<div class="road__act"><span class="road__num">1</span>Benchmark de competencia en el mercado, funnel de tasas, de procesos, de productos, productos de competencia</div>
+<div class="road__track">
+<div class="road__bar road__bar--period" style="grid-column: 1 / span 7">Actualización periódica</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Mesas de Investigación</div>
+<div class="road__act"><span class="road__num">2</span>Coordinación de las mesas de Banca Empresarial</div>
 <div class="road__track">
-<div class="road__bar road__bar--done" style="grid-column: 1 / span 1">Realizada</div>
+<div class="road__bar road__bar--done" style="grid-column: 8 / span 1">Realizada</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Construcción del Caso de Negocio</div>
+<div class="road__act"><span class="road__num">3</span>Seguimiento de 6 mesas (mesas de investigación)</div>
 <div class="road__track">
-<div class="road__bar road__bar--curso" style="grid-column: 2 / span 8">En curso</div>
+<div class="road__bar road__bar--done" style="grid-column: 1 / span 3">8 jun a 1 sep</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Validación del SOW</div>
+<div class="road__act"><span class="road__num">4</span>Información e investigación para construcción de business case proveedores de cadenas de retail y mujeres empresarias</div>
 <div class="road__track">
-<div class="road__bar road__bar--curso" style="grid-column: 2 / span 2">Fin: 19–26 oct</div>
+<div class="road__bar road__bar--done" style="grid-column: 8 / span 1">Realizada</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Flujo de modelo Operativo</div>
+<div class="road__act"><span class="road__num">5</span>Construcción de business case proveedores de cadenas de retail y mujeres empresarias</div>
 <div class="road__track">
-<div class="road__bar road__bar--tent" style="grid-column: 4 / span 3"></div>
+<div class="road__hito" style="grid-column: 4 / span 1"><span aria-hidden="true"></span>10 sep</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act road__act--sub">Por producto empresarial (F1, F2)</div>
+<div class="road__act"><span class="road__num">6</span>Coordinación de equipo directivo para la construcción preliminar de business case proveedores de cadenas de retail y mujeres empresarias</div>
 <div class="road__track">
-<div class="road__bar road__bar--tent" style="grid-column: 4 / span 3"></div>
+<div class="road__bar road__bar--done" style="grid-column: 8 / span 1">Realizada</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act road__act--sub">Transversal: Banca Empresarial, Banca Mayorista y Banca de Gobierno</div>
+<div class="road__act"><span class="road__num">7</span>Fase 1 de construcción de business cases (Proveedores y Mujeres): unir información de mesas y equipo directivo</div>
 <div class="road__track">
-<div class="road__bar road__bar--tent" style="grid-column: 4 / span 3"></div>
+<div class="road__hito" style="grid-column: 4 / span 1"><span aria-hidden="true"></span>18 sep</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Mesas de trabajo</div>
+<div class="road__act"><span class="road__num">8</span>Presentación de business case de cadenas de retail a dirección general; correcciones necesarias para presentar en la planeación estratégica 2027-2031</div>
 <div class="road__track">
-<div class="road__bar road__bar--curso" style="grid-column: 7 / span 3">Fin: 1.ª semana de dic</div>
+<div class="road__hito" style="grid-column: 4 / span 1"><span aria-hidden="true"></span>25 sep</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">Presentación Planeación Estratégica</div>
+<div class="road__act"><span class="road__num">9</span>Definición de productos de Business Cases (F1 Cash Management; F2 Crédito simple con/sin garantía y factoraje)</div>
 <div class="road__track">
-<div class="road__bar road__bar--pend" style="grid-column: 10 / span 1">Por definir</div>
+<div class="road__bar road__bar--done" style="grid-column: 8 / span 1">Realizada</div>
 </div>
 </div>
 <div class="road__row">
-<div class="road__act">TBC: Aprobación del Caso de Negocio</div>
+<div class="road__act"><span class="road__num">10</span>Presentación de business case de Banca Empresarial - Proveedores de Cadenas de Retail, en la planeación estratégica 2027-2031</div>
 <div class="road__track">
-<div class="road__hito" style="grid-column: 10 / span 1"><span aria-hidden="true"></span>TBC</div>
+<div class="road__hito" style="grid-column: 5 / span 1"><span aria-hidden="true"></span>6 oct</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">11</span>Validación de aliado SilverGreen para posibles adquisiciones, para que el lanzamiento de la banca sea más sencillo y con menos fricciones</div>
+<div class="road__track">
+<div class="road__hito" style="grid-column: 4 / span 1"><span aria-hidden="true"></span>17 sep</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">12</span>Benchmark de posibles candidatos para alianzas</div>
+<div class="road__track">
+<div class="road__hito" style="grid-column: 4 / span 1"><span aria-hidden="true"></span>21 sep</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">13</span>Seguimiento con SilverGreen en un plan de trabajo construido</div>
+<div class="road__track">
+<div class="road__hito" style="grid-column: 5 / span 1"><span aria-hidden="true"></span>14 a 15 oct</div>
+</div>
+</div>
+
+<p class="road__group road__group--next">Actuales y pendientes</p>
+<div class="road__row">
+<div class="road__act"><span class="road__num"></span>Construcción del Business Plan (en curso)</div>
+<div class="road__track">
+<div class="road__bar road__bar--curso" style="grid-column: 5 / span 2">En curso</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">1</span>Validación del SOW y definición de la versión final</div>
+<div class="road__track">
+<div class="road__bar road__bar--curso" style="grid-column: 5 / span 1">26 oct</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">2</span>Diseño de los procesos operativos junto con el área de operaciones, por tipo de producto y transversalidad con Banca Mayorista (flujo de modelo operativo)</div>
+<div class="road__track">
+<div class="road__bar road__bar--tent" style="grid-column: 5 / span 2">Fechas por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">3</span>Coordinación de mesas de trabajo para definiciones necesarias por área: Tecnología y Datos, Producto, Riesgos, Planeación Financiera y Operaciones</div>
+<div class="road__track">
+<div class="road__bar road__bar--curso" style="grid-column: 7 / span 1">inicios de dic</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">4</span>Diseño de condiciones de producto junto con Hub de Innovación</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">5</span>Diseño de pilotos no funcionales junto con Hub de Innovación</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">6</span>Diseño financiero coordinado con los costos de tecnología y go to market</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">7</span>Construcción de Statement tecnología</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">8</span>Acompañamiento contratación módulos Temenos</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">9</span>Definiciones finales de CRM para expediente único de cliente</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">10</span>Diseñar proceso de due diligence</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
+</div>
+</div>
+<div class="road__row">
+<div class="road__act"><span class="road__num">11</span>Presentación del Business Plan final</div>
+<div class="road__track">
+<div class="road__bar road__bar--pend" style="grid-column: 8 / span 1">Por definir</div>
 </div>
 </div>
 </div>
 </div>
 
-<p class="road__goal">Inicio de Operaciones de Banca Empresarial 2028</p>
+</div>
+</section>
 
+<!-- ============================================================
+PESTAÑA 6 · SILVER GREEN (fuente: slides 6 y 7, tablero de trazabilidad)
+============================================================ -->
+<section class="panel" id="panel-silvergreen" role="tabpanel" aria-labelledby="tab-silvergreen" hidden>
+<div class="wrap">
 
+<div class="section-head">
+<h2>Silver Green</h2>
+<p class="lede">Objetivo del ejercicio de adquisición.</p>
+</div>
+
+<p class="sg__ctx">Consubanco lanza su división de Banca Empresarial (PyMEs y Middle Market). Para acelerar la
+entrada al mercado, complementa la construcción interna con adquisiciones o alianzas que aporten clientes,
+capacidades y tecnología.</p>
+
+<div class="grid grid--2 gap-lg">
+<article class="objetivo-proyecto">
+<p class="eyebrow">Objetivo</p>
+<p>Identificar, mapear y priorizar empresas objetivo de adquisición que encajen con nuestra propuesta de valor
+y nuestro plan de lanzamiento por fases.</p>
+</article>
+
+<article class="card card--rail card--rail-accent">
+<p class="eyebrow eyebrow--accent">Palanca de fondeo: FIRA</p>
+<p class="sg__fira">2,000 <span>mdp</span></p>
+<p class="card__body">Línea posible. Prioridad: objetivos con clientes o cadenas elegibles (agroindustria,
+proveedores rurales, abasto y retail vinculado).</p>
+</article>
+</div>
+
+<div class="section-head section-head--tight">
+<h2 class="h3">Perfiles de interés</h2>
+</div>
+
+<div class="grid grid--3 gap-lg">
+<article class="card card--rail">
+<h3 class="card__title">Cadenas de retail y sus ecosistemas</h3>
+<p class="card__body">Acceso a redes de proveedores, flujos transaccionales y bases de PyMEs con necesidad de
+financiamiento y cobranza.</p>
+</article>
+<article class="card card--rail">
+<h3 class="card__title">Capacidades tecnológicas</h3>
+<p class="card__body">Originación digital, scoring alternativo, onboarding, pagos, conciliación y cash
+management.</p>
+</article>
+<article class="card card--rail">
+<h3 class="card__title">Plataformas de gestión empresarial</h3>
+<p class="card__body">Soluciones donde el cliente ve toda su empresa en un solo lugar: finanzas, tesorería,
+facturación, cobranza y pagos.</p>
+</article>
+</div>
+
+<div class="section-head section-head--tight">
+<h2 class="h3">Propuesta de valor por fases</h2>
+</div>
+
+<div class="fases">
+<article class="fase">
+<span class="fase__n">0</span>
+<h3>Relación</h3>
+<p>Asistencia financiera, legal y fiscal, y atención diferenciada desde el primer contacto.</p>
+</article>
+<article class="fase">
+<span class="fase__n">1</span>
+<h3>Transaccionalidad</h3>
+<p>Cuenta Empresarial como producto y Cash Management como servicio.</p>
+</article>
+<article class="fase">
+<span class="fase__n">2</span>
+<h3>Crédito</h3>
+<p>Crédito PYME sin garantía, con garantía y factoraje, según lo observado en Cash Management.</p>
+</article>
+<article class="fase fase--last">
+<span class="fase__n">3</span>
+<h3>Patrimonio</h3>
+<p>Inversiones empresariales (Banca Patrimonial Empresarial).</p>
+</article>
+</div>
+
+<p class="sg__foot">Cada objetivo se evalúa por la fase que acelera y la capacidad que aporta: clientes, datos,
+tecnología o canal.</p>
+
+<div class="section-head section-head--tight">
+<h2 class="h3">Entregables esperados</h2>
+</div>
+
+<ul class="ticks">
+<li>Universo de empresas objetivo, por perfil de interés</li>
+<li>Priorización: encaje, fase que acelera, uso de FIRA y viabilidad</li>
+<li>Fichas ejecutivas de objetivos prioritarios</li>
+</ul>
+
+<div class="section-head section-head--tight">
+<h2 class="h3">Plan de trabajo Silver Green</h2>
+<p class="section-head__aside">Fechas aproximadas, sujetas a validación</p>
+</div>
+
+<ul class="road__legend">
+<li><span class="sw sw--done" aria-hidden="true"></span>Terminado</li>
+<li><span class="sw sw--curso" aria-hidden="true"></span>En proceso</li>
+<li><span class="sw sw--pend" aria-hidden="true"></span>Por iniciar</li>
+<li><span class="sw sw--tent" aria-hidden="true"></span>En definición</li>
+<li><span class="sw sw--hito" aria-hidden="true"></span>Hito</li>
+</ul>
+
+<div class="road">
+<div class="sg__grid">
+<div class="sg__row sg__row--years">
+<div class="sg__act"></div>
+<div class="sg__right">
+<div class="sg__track sg__track--years">
+<span style="grid-column: 1 / span 3">2026</span>
+<span style="grid-column: 4 / span 11">2027</span>
+<span style="grid-column: 15 / span 1">2028</span>
+</div>
+</div>
+</div>
+
+<div class="sg__row sg__row--head">
+<div class="sg__act">Fase</div>
+<div class="sg__right">
+<div class="sg__track sg__track--head">
+<span>Oct</span>
+<span>Nov</span>
+<span>Dic</span>
+<span>Ene</span>
+<span>Feb</span>
+<span>Mar</span>
+<span>Abr</span>
+<span>May</span>
+<span>Jun</span>
+<span>Jul</span>
+<span>Ago</span>
+<span>Sep</span>
+<span>Oct</span>
+<span>Nov</span>
+<span>1T</span>
+</div>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">1</span>Definición del target</p>
+<p class="sg__per">Oct 2026</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--done" style="grid-column: 1 / span 1"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Oct</strong> Perfil validado y acordado</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">2</span>Mapeo de empresas</p>
+<p class="sg__per">Oct 2026</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--curso" style="grid-column: 1 / span 1"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Oct</strong> Mapeo preliminar filtrado</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">3</span>Priorización</p>
+<p class="sg__per">Oct a nov 2026</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--curso" style="grid-column: 1 / span 2"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Nov</strong> Finalistas elegidos y comunicados a Silver Green</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">4</span>Sinergias y estrategia de acercamiento</p>
+<p class="sg__per">Nov 2026</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--start" style="grid-column: 2 / span 1"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Nov</strong> Plan de acercamiento aprobado</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">5</span>Acercamiento y seguimiento</p>
+<p class="sg__per">Nov 2026 a jul 2027</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--start" style="grid-column: 2 / span 9"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Dic</strong> Primeros acercamientos</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">6</span>Evaluación preliminar</p>
+<p class="sg__per">Nov 2026 a ene 2027</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--def" style="grid-column: 2 / span 3"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Dic</strong> Targets para iniciar negociación definidos</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">7</span>Negociación, due diligence y cierre</p>
+<p class="sg__per">Ene a jul 2027</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--def" style="grid-column: 4 / span 7"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>Ene</strong> LOI y exclusividad</li>
+<li><span aria-hidden="true"></span><strong>Abr</strong> Decisión go / no-go</li>
+<li><span aria-hidden="true"></span><strong>Jun</strong> Firma del contrato</li>
+<li><span aria-hidden="true"></span><strong>Jul</strong> Cierre (closing)</li>
+</ul>
+</div>
+</div>
+
+<div class="sg__row">
+<div class="sg__act">
+<p class="sg__name"><span class="sg__num">8</span>Integración y puesta en operación</p>
+<p class="sg__per">Jun a nov 2027</p>
+</div>
+<div class="sg__right">
+<div class="sg__track">
+<div class="sg__bar sg__bar--def" style="grid-column: 9 / span 6"></div>
+</div>
+<ul class="sg__hitos">
+<li><span aria-hidden="true"></span><strong>1T 2028</strong> Banca Empresarial operando</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 </div>
 </section>
