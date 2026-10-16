@@ -1405,3 +1405,54 @@ color: #1B355D; border-left-width: 2px; padding-left: 9px;
 .card--ghost { border-radius: 4px; }
 .ghost__line { border-radius: 2px; }
 .ghost__slot, .ghost__cap { font-size: 10.5px; letter-spacing: .1em; }
+
+/* =============================================================
+21. Iconografía del journey
+Gráficos decorativos (aria-hidden): no aportan información
+nueva, solo apoyan la lectura visual del flujo.
+============================================================= */
+.fstage__ico, .node__ico, .tico, .gate__ico, .policy__ico {
+display: inline-grid; place-items: center; flex: none;
+}
+.fstage__ico svg, .node__ico svg, .tico svg, .gate__ico svg, .policy__ico svg {
+display: block;
+}
+
+/* Encabezado de etapa */
+.fstage__head { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.fstage__ico { width: 16px; height: 16px; color: #7DACE3; }
+.fstage__ico svg { width: 16px; height: 16px; }
+
+/* Nodo del flujo */
+.node { align-items: center; }
+.node__ico {
+width: 30px; height: 30px; border-radius: 3px;
+background: rgba(125, 172, 227, .16); color: #9CC3EA;
+margin-bottom: 1px;
+}
+.node__ico svg { width: 17px; height: 17px; }
+.node--post { align-items: flex-start; }
+.node--post .node__ico { background: rgba(231, 83, 1, .18); color: #FFB183; }
+
+/* Etiquetas con icono */
+.tags li { display: flex; align-items: center; gap: 8px; text-align: left; }
+.tico { width: 16px; height: 16px; color: #4C70A0; }
+.tico svg { width: 16px; height: 16px; }
+.tags li.is-accent .tico { color: #C04617; }
+
+/* Decisión y política */
+.gate__q { display: flex; align-items: center; justify-content: center; gap: 7px; }
+.gate__ico { width: 15px; height: 15px; color: #C04617; }
+.gate__ico svg { width: 15px; height: 15px; }
+.policy__title { display: flex; align-items: center; gap: 6px; }
+.policy__ico { width: 14px; height: 14px; color: #983920; }
+.policy__ico svg { width: 14px; height: 14px; }
+
+@media (max-width: 1080px) {
+.tags:not(.tags--stack) li { flex: 0 1 auto; }
+}
+
+/* Las etiquetas del flujo se apilan para alinear iconos y texto */
+.tags { flex-direction: column; flex-wrap: nowrap; }
+.tags:not(.tags--stack) li { flex: 0 0 auto; }
+
