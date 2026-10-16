@@ -1456,3 +1456,77 @@ margin-bottom: 1px;
 .tags { flex-direction: column; flex-wrap: nowrap; }
 .tags:not(.tags--stack) li { flex: 0 0 auto; }
 
+/* =============================================================
+22. Encabezado
+Ajuste de color y forma: banda superior en azul claro,
+marca con logotipo y navegación en pastillas.
+============================================================= */
+body { background: #F3F7FC; }
+
+.masthead {
+background: #E4EEFA;
+border-bottom: 1px solid #D3E2F4;
+box-shadow: 0 6px 14px -14px rgba(28, 53, 94, .45);
+}
+
+/* Banda de marca */
+.masthead__bar { background: transparent; }
+.masthead__bar-inner { padding-block: 14px 0; }
+.brand {
+position: relative;
+color: #1C355E;
+font-size: 13px; font-weight: 700; letter-spacing: -0.005em; text-transform: none;
+gap: 9px;
+}
+/* Logotipo: anillo azul con punto naranja */
+.brand::before {
+content: "";
+width: 15px; height: 15px; flex: none;
+border: 3px solid #7BAAE0; border-radius: 50%;
+background: transparent;
+}
+.brand::after {
+content: "";
+position: absolute; left: 9px; top: 0;
+width: 8px; height: 8px; border-radius: 50%;
+background: #E8561C;
+}
+
+/* Título */
+.masthead__title { padding-block: 4px 14px; }
+.masthead__title h1 {
+color: #1C355E;
+font-size: clamp(26px, 4.2vw, 36px); font-weight: 700; letter-spacing: -0.022em;
+}
+
+/* Navegación en pastillas */
+.tabs { background: transparent; border-top: 0; }
+.tabs__inner { gap: 6px; padding-bottom: 14px; }
+.tab {
+border-radius: 999px; border-bottom: 0;
+padding: 9px 19px;
+font-size: 14px; font-weight: 600; color: #1C355E;
+background: transparent;
+}
+.tab:hover { background: #D5E6F8; color: #1C355E; }
+.tab.is-active {
+background: #7BAAE0; color: #1C355E; font-weight: 600; border-bottom: 0;
+}
+.tab.is-active:hover { background: #7BAAE0; }
+
+/* Ritmo vertical del encabezado */
+.masthead__bar-inner { padding-block: 18px 0; }
+.masthead__title { padding-block: 6px 16px; }
+.tabs__inner { padding-bottom: 18px; }
+.tab { padding: 11px 22px; }
+.brand::before { width: 16px; height: 16px; }
+.brand::after { width: 9px; height: 9px; left: 10px; top: -1px; }
+
+/* Escala tipográfica del encabezado */
+.brand { font-size: 15px; gap: 10px; }
+.brand::before { width: 19px; height: 19px; border-width: 3.5px; }
+.brand::after { width: 11px; height: 11px; left: 12px; top: -2px; }
+.masthead__title h1 { font-size: clamp(30px, 5vw, 42px); }
+.tab { font-size: 17px; padding: 12px 24px; }
+.tabs__inner { gap: 10px; }
+
